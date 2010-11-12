@@ -1,0 +1,41 @@
+#test-results {
+    font-family:Monaco;
+}
+
+#test-results .testCase {
+    padding:5px;
+    margin:5px;
+    background-color:#EEE;
+    border:2px solid #FFF;
+    float:left;
+    overflow:auto;
+}
+
+#test-results .testCase.running {
+    color:#EE0;
+}
+#test-results .testCase.succeeded {
+    color:green;
+}
+#test-results .testCase.failed {
+    color:red;
+}
+
+#test-results .tests .testAssertions {
+    display:none;
+}
+
+ul, ol {
+    display:block;
+    list-style-type:square;
+}
+
+li {
+    display:block;
+    margin:2em;
+}
+
+p {
+    display:block;
+    margin:1em;
+}
